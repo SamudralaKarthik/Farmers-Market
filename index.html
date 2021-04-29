@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Farmer's Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/grocery.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="170px" class="center"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="AboutUs.html">AboutUs</a></li>
+                        <li>
+                            <a href="mailto:Group21@gamil.com?subject=We would like to contact you(Farmer's Market)" onclick="alert('This page has been redirecting to the Email page.')"> ContactUs</a>
+                        </li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/Cart.png" with="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <video autoplay muted loop width="600px" height="500px">
+                    <source src="images/3D-Animation-Market1.mp4" type="video/webm" />
+                    <source src="i mages/3D-Animation-Market1.mp4" type="video/mp4" />
+                </video>
+                </div>
+                <div class="col-2">
+                    <h1 class="font">Growing your own food is like printing your own money.</h1>
+                    <p class="font">Life on a form is a school of patience; you can't hurry the crops or make an ox in two days.</p>
+                    <a href="products.html" class="btn"> Explore Now &#10132;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------- featured categories----------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/Category1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/Category2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/Category3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------- featured Products----------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product1.html"><img src="images/Product-1.jpg"></a>
+                <a href="product1.html">
+                    <h4> Green Beans </h4>
+                </a>
+                <p>&#8377;35.00(/1kg)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product7.html"><img src="images/Product-7.jpg"></a>
+                <a href="product7.html">
+                    <h4> Milk </h4>
+                </a>
+                <p>&#8377;27.00(/1lit)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="images/Product-8.jpg"></a>
+                <a href="products-details.html">
+                    <h4> Apples </h4>
+                </a>
+                <p>&#8377;27.00(/1pc)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product12.html"><img src="images/Product-12.jpg"></a>
+                <a href="product12.html">
+                    <h4> Water Melon </h4>
+                </a>
+                <p>&#8377;65.00(/1pc)</p>
+
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product3.html"><img src="images/Product-3.jpg"></a>
+                <a href="product3.html">
+                    <h4> Tomato </h4>
+                </a>
+                <p>&#8377;18.00(/1kg)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product5.html"><img src="images/Product-5.jpg"></a>
+                <a href="product5.html">
+                    <h4> Mushroom </h4>
+                </a>
+                <p>&#8377;58.00(/1kg)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product9.html"><img src="images/Product-9.jpg"></a>
+                <a href="product9.html">
+                    <h4> Orange </h4>
+                </a>
+                <p>&#8377;20.00(/1pc)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product10.html"><img src="images/Product-10.jpg"></a>
+                <a href="product10.html">
+                    <h4> Kiwi </h4>
+                </a>
+                <p>1 pc-&#8377;15.00 Rupees</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product11.html"><img src="images/Product-11.jpg"></a>
+                <a href="product11.html">
+                    <h4> Banana </h4>
+                </a>
+                <p>&#8377;35.00(/1kg)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product2.html"><img src="images/Product-2.jpg"></a>
+                <a href="product2.html">
+                    <h4> Ladies Finger </h4>
+                </a>
+                <p>&#8377;22.00(/1kg)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product4.html"><img src="images/Product-4.jpg"></a>
+                <a href="product4.html">
+                    <h4> Carrot </h4>
+                </a>
+                <p>&#8377;23.00(/1kg)</p>
+
+            </div>
+            <div class="col-4">
+                <a href="product6.html"><img src="images/Product-6.jpg"></a>
+                <a href="product6.html">
+                    <h4> Capsicum </h4>
+                </a>
+                <p>&#8377;61.00(/1kg)</p>
+
+            </div>
+        </div>
+    </div>
+    <!------ offer ------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Farmer's Market</p>
+                    <h1>Healthy Fruits </h1>
+                    <small>Eating fruit provides health benefits — people who eat more fruits and vegetables as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases. Fruits provide nutrients vital for health and maintenance of your body. Most fruits are naturally low in fat, sodium, and calories <br></small>
+                    <a href="products-details.html" class="btn"> Buy Now &#10132;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------testimonial------->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <h2 class="title"> Recent Reviews</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/user1.png">
+                    <h3>Rohith</h3>
+                    <i class="fa fa-quote-left"></i>
+                    <p> excellent easy use web site - thorough, complete organized Product is top-notch, not a lot of places to buy vegetables, fruits, and milk...etc</p><i class="fa fa-quote-right"></i>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+
+                    <img src="images/user2.png">
+                    <h3>Shekar</h3>
+                    <i class="fa fa-quote-left"></i>
+                    <p>Efficient, good communication, polite and helpful staff, good products and great offers.</p><i class="fa fa-quote-right"></i>
+                    <div class="rating1">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/user3.png">
+                    <h3>Lasya</h3>
+                    <i class="fa fa-quote-left"></i>
+                    <p>happy and pleased! Very excellent service and staff were all ready to help whenever asked.</p><i class="fa fa-quote-right"></i>
+                    <div class="rating1">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------brands------------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-4.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-5.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-2.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-3.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------footer--------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android, ios mobile phones and windows</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                        <img src="images/d-window.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our website is to design a website that helps farmers to sell their products directly to consumers.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Help</h3>
+                    <ul>
+                        <li class="h"><a href="" class="b">FAQs</a></li>
+                        <li class="h"><a href="" class="b">Contact Us</a></li>
+                        <li class="h"><a href="" class="b">Privacy Policy</a></li>
+                        <li class="h"><a href="" class="b">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us on</h3>
+                    <ul>
+                        <li class="h"><i class="fa fa-facebook"></i><a href="" class="b"> Facebook</a></li>
+                        <li class="h"><i class="fa fa-twitter"></i><a href="" class="b"> Twitter</a></li>
+                        <li class="h"><i class="fa fa-instagram"></i><a href="" class="b"> Instagram</a></li>
+                        <li class="h"><i class="fa fa-pinterest"></i><a href="" class="b"> Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h2 class="f">FYI &#8210; <br></h2>
+            <h2 class="f">POPULAR CATEGORIES &#8227; </h2>
+            <p class="f">vegetables,Fruits and Milk <br> <br></p>
+            <h2 class="f">POPULAR BRANDS &#8227; </h2>
+            <p class="f">Whole Foods Market,State Farm,kellog's,Marriot,Nestle <br> <br></p>
+            <h2 class="f">CITIES WE SERVE &#8227; </h2>
+            <p class="f">Bangalore,Hyderabad,Mumbai,Pune,Chennai,Delhi,Mysore, <br> Madurai,Coimbatore,Vijayawada-Guntur,Kolkata,Ahmedabad-Gandhinagar,Nashik,Lucknow-Kanpur,Gurgaon,Vadodara,Visakhapatnam,Surat,Nagpur,Patna, <br> Indore,Chandigarh Tricity,Jaipur,Bhopal,Noida-Ghaziabad,Kochi.
+                <br><br></p>
+            <h2 class="f">PAYMENT OPTIONS &#8227; </h2>
+            <p class="f">Cash on Delivery and Online PAYMENT</p>
+        </div>
+    </div>
+    <!-------js for toggle menu----->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
