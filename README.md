@@ -1,0 +1,2 @@
+# Farmers-Market
+ The main approach of this project is to design a website that helps the farmers to sell their products directly to the consumers. Farmer’s markets encourage individual associations and obligations of shared advantages between farmers, shoppers, and communities. The earlier way of selling the products is different.  The farmer gives all the products to some companies or sellers so that they get less income. So, by this website the farmer can make money and consumers can get a better product.
